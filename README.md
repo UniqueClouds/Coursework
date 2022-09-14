@@ -6,7 +6,7 @@ With the development of storage and communication technology, large-scale image 
 
 <!-- <center>![problem defination](https://github.com/lzzppp/Coursework/blob/main/irproject.png)<center> -->
 <div  align="center">
-    <img src="https://github.com/lzzppp/Coursework/blob/main/irproject.png" alt="图片名称" align=center />
+    <img src="https://github.com/lzzppp/Coursework/blob/main/irproject.png" height=305 width=280 alt="图片名称" align=center />
 </div>
 
 ## Data and File Format
