@@ -4,7 +4,7 @@
 
 With the development of storage and communication technology, large-scale image data retrieval has become an urgent problem to be solved. In practical applications, image data is often converted into high-dimensional vectors by an image encoder, so the retrieval task of large-scale image data is transformed into the indexing problem of high-dimensional vectors. This project focuses on the **search of high-dimensional vectors** (Embedding dimension of this project is 512) and does not consider the image encoding part, so students only need to complete the retrieval task of the query vector provided by us in the large-scale vector library.
 
-![problem defination](https://github.com/lzzppp/Coursework/blob/main/irproject.png)
+<center>![problem defination](https://github.com/lzzppp/Coursework/blob/main/irproject.png)<center>
 
 ## Data and File Format
 
