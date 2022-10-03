@@ -29,6 +29,8 @@ With the development of storage and communication technology, large-scale image 
 - test\_a (query: 500; gallery:500,000) and test\_b (query: 5000; gallery:5,000,000) have the same file structure. We will initially provide a smaller dataset test\_a for students to debug the search algorithm (query\_emb.npy is the query embeddings; gallery\_emb.npy is the embeddings to be queried; label\_500.pkl is the 10 indexes that belong to the same group in gallery_emb.npy for each query embedding.), and give the running code sample **search.py** and test code **evaluation.py**.  
 - You only need to submit **the modified search.py** code to 12221073@zju.edu.cn, and we will comprehensively measure **the query time** and **P@10** indicators to give the score of this project.
 
+test_a data download link: https://pan.baidu.com/s/1jKLpwpE1vVodaDTsq2WL7A?pwd=tgi7 code: tgi7
+
 ## Evaluation indicators
 Efficiency: We count the average time per query, the faster the better.
 
