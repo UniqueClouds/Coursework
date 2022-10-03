@@ -30,7 +30,15 @@ With the development of storage and communication technology, large-scale image 
 - You only need to submit **the modified search.py** code to xxx, and we will comprehensively measure **the query time** and **P@10** indicators to give the score of this project.
 
 ## Evaluation indicators
-xxx
+Efficiency: We count the average time per query, the faster the better.
+
+Effectiveness: For the top-10 search for each query given by the algorithm, we will calculate the precision (P@10), and the higher the final precision, the better.
+
+<div  align="center">
+    <img src="https://github.com/lzzppp/Coursework/blob/main/irproject.png" height=457 width=419 alt="图片名称" align=center />
+</div>
+
+Final Rank: We will rank students based on the efficiency and effectiveness of search algorithm.
 
 ## Runing Demo
 
