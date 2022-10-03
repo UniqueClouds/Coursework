@@ -1,5 +1,5 @@
-from copyreg import pickle
 import time
+import pickle
 import argparse
 import numpy as np
 from tqdm import tqdm
