@@ -54,17 +54,5 @@ Final Rank: We will rank submissions based on the efficiency and effectiveness o
 > 
 > -st : The path that stores the total time of all queries
 
-## Evaluation Demo
-
-    python evaluation.py -so ./submissions/output.csv -st ./submissions/total_time.pkl -l ./test_a/labels_500.pkl --query_number 500
-
-> -so : The search result file to be evaluated 
-> 
-> -st : The total time of the all queries
-> 
-> -l : File path for all queried tags
-> 
-> --query_number : Number of queries
-
 
 
