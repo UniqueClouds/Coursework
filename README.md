@@ -41,18 +41,3 @@ Effectiveness: For the top-10 search for each query given by the algorithm, we w
 </div>
 
 Final Rank: We will rank submissions based on the efficiency and effectiveness of the search algorithm submitted.
-
-## Runing Demo
-
-    python search.py -q ./test_a/query_emb.npy -g ./test_a/gallery_emb.npy -o ./submissions/output.csv 
-
-> -q : The path of all query embeddings 
-> 
-> -g : The path of all gallery embeddings
-> 
-> -so : The path that stores the search result of all queries
-> 
-> -st : The path that stores the total time of all queries
-
-
-
