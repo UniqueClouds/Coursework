@@ -1,7 +1,8 @@
 import time
 import numpy as np
 
-def searchfunction(query_embeddings, gallery_embeddings, K=10):
+def searchfunction(query_embeddings, gallery_embeddings):
+    K = 10
     all_result = []
     for query_embedding in query_embeddings:
         dist_jnds = []
