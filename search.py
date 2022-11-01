@@ -1,3 +1,4 @@
+import os
 import time
 import pickle
 import argparse
@@ -7,12 +8,16 @@ from yoursearch import searchfunction
 
 parser = argparse.ArgumentParser()
 parser.description='please enter two parameters a and b ...'
-parser.add_argument("-q", "--query_emb_path", help="this is the query embeddings path", type=str, default="query_emb.npy")
-parser.add_argument("-g", "--gallery_emb_path", help="this is the gallery embeddings path", type=str, default="gallery_emb.npy")
+parser.add_argument("-q", "--query_emb_path", help="this is the query embeddings path", type=str, default="./test_a/query_emb.npy")
+parser.add_argument("-g", "--gallery_emb_path", help="this is the gallery embeddings path", type=str, default="./test_a/gallery_emb.npy")
 parser.add_argument("-o", "--output_path", help="this is the output file path", type=str, default="./submissions/output.csv")
 args = parser.parse_args()
 
 K = 10
+
+if not os.path.exists("./submissions"):
+    os.mkdir("./submissions")
+
 csv_writer = open(args.output_path, 'w')
 query_embeddings = np.load(args.query_emb_path)
 gallery_embeddings = np.load(args.gallery_emb_path)
